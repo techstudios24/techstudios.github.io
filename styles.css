@@ -1,0 +1,214 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos del encabezado */
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,81,126,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ffdd57;
+}
+
+/* Hero (sección inicial) */
+.hero {
+    background-image: image"img/car4.png";
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta {
+    background-color: #ffffff ;
+   color: #080808;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #5457f0;
+}
+
+/* Sección sobre nosotros */
+.about, .services, .portfolio, .contact {
+    padding: 80px 20px;
+    background-color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.team div {
+    text-align: center;
+}
+
+.team img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/* Servicios */
+.services .service-grid {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services .service-item {
+    flex: 1;
+    min-width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.services .service-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Portafolio */
+.portfolio .portfolio-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolio .portfolio-item {
+    width: 300px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.portfolio img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.portfolio h4 {
+    padding: 15px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,81,126,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    text-align: center;
+}
+
+/* Formulario de contacto */
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input, .contact textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button.cta {
+    align-self: center;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.text-texto {
+    color:  rgba(0,81,126,1)
+}
+
+.text-texto2 {
+color:rgb(10, 7, 211)
+}
+
+.text-texto3 {
+    color:  #07b0f3;
+}
+
+.text-texto4 {
+color:rgb(26, 6, 202)
+}
+
+.text-texto5{
+    color: rgba(0,81,126,1)
+}
+
+.text-texto6{
+    color: rgb(9, 148, 223)
+}
